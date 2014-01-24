@@ -40,7 +40,8 @@ h2{
 header{
 	border: 3px solid red;
 	height: 173px;
-	overflow:auto;
+	overflow-y:auto;
+	overflow-x:hidden;
 }
 
 h1, h2, h3, h4, h5 {
