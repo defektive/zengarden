@@ -22,3 +22,6 @@
 	-moz-animation: animatedBackground 40s linear infinite;
 	-webkit-animation: animatedBackground 40s linear infinite;
 }
+h1{
+	color:yellow;
+}
