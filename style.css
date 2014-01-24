@@ -23,7 +23,7 @@
 	-webkit-animation: animatedBackground 40s linear infinite;
 }
 h1{
-	color:yellow;
+	color:red;
 	font-size: 50px;
 }
 
@@ -33,6 +33,16 @@ h2{
 
 header{
 	border: 3px solid red;
-	height: 155px;
+	height: 173px;
 	overflow:auto;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "Comic Sans MS";
+}
+
+h2, h3, h4, h5 {
+	text-align: center;
+	font-size: 24px;
+	color:yellow;
 }
