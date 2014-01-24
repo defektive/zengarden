@@ -9,6 +9,12 @@
 	to { background-position: 0 100%; }
 }
 
+@-webkit-keyframes marquee {
+	from { left: 0; }
+	to { left: 100%; }
+}
+
+
 #css-zen-garden {
 
 	background-image: url('images/bg1.gif');
@@ -52,3 +58,31 @@ h2, h3, h4, h5 {
 
 	background-image: url('images/best-viewed-in-ie.jpg');
 }
+
+a:link, a:visited {
+	color: yellow;
+}
+
+a:hover, a:active {
+	color: bright-yellow;
+}
+
+h2 {
+
+position: relative;
+
+	-webkit-animation: marquee 1800ms linear infinite;
+
+}
+
+
+a:after {
+	content: "";
+	background: url(images/p-studiostore.gif);
+	height: 71px;
+	display: inline-block;
+	width: 79px;
+	position: relative;
+	left: -40px;
+	top: -20px;
+};
