@@ -46,3 +46,9 @@ h2, h3, h4, h5 {
 	font-size: 24px;
 	color:yellow;
 }
+
+.extra4 {
+	height: 110px;
+
+	background-image: url('images/best-viewed-in-ie.jpg');
+}
