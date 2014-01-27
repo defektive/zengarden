@@ -14,6 +14,14 @@
 	to { left: 100%; }
 }
 
+@-webkit-keyframes rotate {
+	from { 
+-webkit-transform:rotate(0deg); }
+	to { 
+-webkit-transform:rotate(360deg);
+ }
+}
+
 
 #css-zen-garden {
 
@@ -71,7 +79,7 @@ a:hover, a:active {
 h2 {
 
 position: relative;
-
+margin-bottom: 30px;
 	-webkit-animation: marquee 1800ms linear infinite;
 
 }
@@ -86,4 +94,6 @@ a:after {
 	position: relative;
 	left: -40px;
 	top: -20px;
+
+	-webkit-animation: rotate 1800ms linear infinite;
 };
